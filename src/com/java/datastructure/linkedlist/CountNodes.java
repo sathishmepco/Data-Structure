@@ -1,5 +1,10 @@
 package com.java.datastructure.linkedlist;
 
+/*
+ * This program counts the number of nodes in the given linked list
+ * Given linked list  :: 2 4 6 8
+ * Number of nodes :: 4
+ */
 public class CountNodes {
 	
 	public static void main(String[] args) {
@@ -44,3 +49,11 @@ public class CountNodes {
 		return 2 + countUsingRecursion2(head);
 	}
 }
+/*
+ *	OUTPUT
+
+  	The linked list is ::
+	10->20->30->40->50->Null
+	Number of nodes in the linked list is :: 5
+
+*/
