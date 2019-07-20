@@ -14,7 +14,7 @@ public class LinkedList {
 	public static Node newList2(){
 		Node head = new Node(5);
 		head.next = new Node(6);
-		head.next.next = new Node(3);
+		head.next.next = new Node(5);
 		head.next.next.next = new Node(4);
 		return head;
 	}
