@@ -1,6 +1,6 @@
 package com.java.datastructure.tree;
 
-public class BinaryTree {
+public class BinaryTree{
 	
 	public static TreeNode createTree(){
 		TreeNode root = new TreeNode(40);
@@ -12,6 +12,21 @@ public class BinaryTree {
 		root = insertion(root, 70);
 		root = insertion(root, -1);
 		root = insertion(root, -2);
+		
+		
+		/*
+		 * The above code is equivalent to the below code
+		 */
+		/*TreeNode root = new TreeNode(40);
+		root.left = new TreeNode(20);
+		root.right = new TreeNode(60);
+		root.left.left = new TreeNode(10);
+		root.left.right = new TreeNode(30);
+		root.right.left = new TreeNode(50);
+		root.right.right = new TreeNode(70);
+		root.left.left.left = new TreeNode(-1);
+		root.left.left.left.left = new TreeNode(-2);*/
+		
 		return root;
 	}
 	
