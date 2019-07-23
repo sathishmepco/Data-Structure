@@ -41,4 +41,4 @@ public class BinaryTree{
 			root.right = insertion(root.right, data);
 		return root;
 	}
-}
+} 
