@@ -1,5 +1,19 @@
 package com.java.datastructure.tree;
 
+/*
+ 	The below code will generate the binary tree like this
+ 	
+ 						40
+					
+			20						60
+			
+		10		30				50			70
+		
+	-1
+	
+		-2
+*/
+
 public class BinaryTree{
 	
 	public static TreeNode createTree(){
