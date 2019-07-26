@@ -7,6 +7,7 @@ The height of the Tree is longest path from root node to any leaf node.
 In this given tree longest path is 40 > 20 > 10 > -1 > -2
 No of nodes in the path is 5, thats the height of the tree.
 
+
 					40
 				
 		20						60
