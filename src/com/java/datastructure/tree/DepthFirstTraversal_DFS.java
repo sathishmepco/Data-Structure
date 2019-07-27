@@ -1,18 +1,18 @@
 package com.java.datastructure.tree;
 /*
  * The given Tree will look like this, 40 is the root node
- 						40
+					40
 					
-			20						60
+			20				60
 			
-		10		30				50			70
+		10		30		50		70
 		
-	-1
+	5
 	
-		-2
+		8
 
  Depth First Search ::
- 40 >> 20 >> 10 >> -1 >> -2 >> 30 >> 60 >> 50 >> 70 >>
+ 40 >> 20 >> 10 >> 5 >> 8 >> 30 >> 60 >> 50 >> 70 >>
  
  */
 public class DepthFirstTraversal_DFS {
