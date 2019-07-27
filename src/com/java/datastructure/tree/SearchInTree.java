@@ -2,15 +2,15 @@ package com.java.datastructure.tree;
 
 /*
  * The given Tree will look like this
- 						40
+					40
 					
-			20						60
+			20				60
 			
-		10		30				50			70
+		10		30		50		70
 		
-	-1
+	5
 	
-		-2
+		8
 
  	Search for 30 :: true
 	Search for 75 :: false
@@ -20,6 +20,7 @@ public class SearchInTree {
 
 	public static void main(String[] args) {
 		TreeNode root = BinaryTree.createTree();
+		
 		int key = 30;
 		boolean isKeyFound = search(root, key); 
 		System.out.println("Search for 30 :: "+isKeyFound);
