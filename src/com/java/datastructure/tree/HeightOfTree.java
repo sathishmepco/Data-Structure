@@ -4,19 +4,19 @@ package com.java.datastructure.tree;
 The binary tree will look like this
 
 The height of the Tree is longest path from root node to any leaf node.
-In this given tree longest path is 40 > 20 > 10 > -1 > -2
+In this given tree longest path is 40 > 20 > 10 > 5 > 8
 No of nodes in the path is 5, thats the height of the tree.
 
 
 					40
-				
-		20						60
+					
+			20				60
+			
+		10		30		50		70
 		
-	10		30				50			70
+	5
 	
--1
-
-	-2
+		8
 	
 Height of the Tree is :: 5
 
