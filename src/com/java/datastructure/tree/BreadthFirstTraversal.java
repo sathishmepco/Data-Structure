@@ -1,24 +1,23 @@
 package com.java.datastructure.tree;
 
-import java.awt.EventQueue;
 import java.util.LinkedList;
 import java.util.Queue;
 
 /*
 	The binary tree will look like this
 	
-						40
+					40
 					
-			20						60
+			20				60
 			
-		10		30				50			70
+		10		30		50		70
 		
-	-1
+	5
 	
-		-2
+		8
 		
 Breadth First Traversal or Breadth First Search is
- 40 >> 20 >> 60 >> 10 >> 30 >> 50 >> 70 >> -1 >> -2 >>
+ 40 >> 20 >> 60 >> 10 >> 30 >> 50 >> 70 >> 5 >> 8 >>
 
 */
 public class BreadthFirstTraversal {
@@ -37,8 +36,8 @@ public class BreadthFirstTraversal {
 	 * 	Level 0 -> 	40
 	 * 	Level 1 -> 	20, 60
 	 * 	Level 2 ->	10, 30, 50, 70
-	 * 	Level 3 ->	-1
-	 * 	Level 4 ->	-2  
+	 * 	Level 3 ->	5
+	 * 	Level 4 ->	8  
 	 */
 	public static void breadthFirstSearch(TreeNode root){
 		if(root == null)
