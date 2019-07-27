@@ -9,9 +9,9 @@ package com.java.datastructure.tree;
 			
 		10		30				50			70
 		
-	-1
+	5
 	
-		-2
+		8
 */
 
 public class BinaryTree{
@@ -24,8 +24,8 @@ public class BinaryTree{
 		root = insertion(root, 30);
 		root = insertion(root, 50);
 		root = insertion(root, 70);
-		root = insertion(root, -1);
-		root = insertion(root, -2);
+		root = insertion(root, 5);
+		root = insertion(root, 8);
 		
 		
 		/*
@@ -38,8 +38,8 @@ public class BinaryTree{
 		root.left.right = new TreeNode(30);
 		root.right.left = new TreeNode(50);
 		root.right.right = new TreeNode(70);
-		root.left.left.left = new TreeNode(-1);
-		root.left.left.left.left = new TreeNode(-2);*/
+		root.left.left.left = new TreeNode(5);
+		root.left.left.left.left = new TreeNode(8);*/
 		
 		return root;
 	}
