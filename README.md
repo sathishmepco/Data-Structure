@@ -1,6 +1,9 @@
 # Data-Structure
 Data Structure problems coded in java
 
+# Single Linked List
+<img src="/images/linked_list.png"/>
+
 # Binary Search Tree
 <img src="/images/bst.png"/>
 
