@@ -4,6 +4,9 @@ Data Structure problems coded in java
 # Single Linked List
 <img src="/images/linked_list.png"/>
 
+# Reverse Linked List
+<img src="/images/reverse_linked_list.png"/>
+
 # Binary Search Tree
 <img src="/images/bst.png"/>
 
