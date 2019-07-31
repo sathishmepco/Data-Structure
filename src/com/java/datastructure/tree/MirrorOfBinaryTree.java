@@ -51,4 +51,14 @@ public class MirrorOfBinaryTree {
 		mirrorOfBinaryTree(root.right);
 		return root;	
 	}
+	
+	//this approach simply swaps the left tree to the right node and
+	//right tree to left node
+	public static TreeNode anotherApproach(TreeNode root){
+		if(root == null)
+			return null;
+		root.left = anotherApproach(root.right);
+		root.right = anotherApproach(root.left);
+		return root;
+	}
 }
