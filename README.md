@@ -16,5 +16,5 @@ Breadth First Search :: 8 >> 3 >> 10 >> 1 >> 6 >> 9 >> 14
 Depth First Search :: 8 >> 3 >> 1 >> 6 >> 10 >> 9 >> 14
 <img src="/images/bfs_dfs.png"/>
 
-# Breadth First Search and Depth First Search
+# Mirror of Binary Search Tree
 <img src="/images/mirror of BST.png"/>
