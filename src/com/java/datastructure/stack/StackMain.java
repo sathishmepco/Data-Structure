@@ -1,5 +1,8 @@
 package com.java.datastructure.stack;
 
+//Stack implementation in Java
+//Last In First Out - LIFO
+//First In Last Out - FILO
 public class StackMain {
 	public static void main(String[] args) {
 		Stack stack = new Stack(3);
@@ -35,7 +38,7 @@ public class StackMain {
 }
 /*
 
-	Output 
+	OUTPUT
 	
 	Inserting data :1
 	Inserting data :2
